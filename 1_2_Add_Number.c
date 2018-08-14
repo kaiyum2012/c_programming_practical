@@ -2,7 +2,10 @@
 int main(int argc, char const *argv[])
 {
 	
-	int num1,num2,sum;
+	int num1,num2,sum=0; // declarations
+
+
+	printf("This program is use to add up 2 numbers \n"); // not neccesary. 
 
 	printf("Enter 1st number \n");
 	scanf("%d", &num1);
