@@ -11,27 +11,39 @@ int main(int argc, char const *argv[])
 		// Giving user choice 
 		printf("choose an option\n");
 		printf("1. for Fehrerhite to Celsius\n");
-		printf("2. for Celsius to Celsius\n");
+		printf("2. for Celsius to Fehrerhite\n");
 		printf("x. for Exit \n");
-		switch(ch = getchar()){
-			case '1': printf("enter Temprature \n");
+
+		// ch = getchar();
+
+		scanf(" %c",&ch);
+
+		switch(ch){
+			case '1': printf("Enter Temprature \n");
 			scanf("%f",&Temp);
-			printf("%5.2f Fehrerhite = %5.2f Celsius\n",Temp,FerToCel(Temp));
+			printf("%5.2f Fehrenhite = %5.2f Celsius\n \n",Temp,FerToCel(Temp));
+			
 			break;
 
-			case '2': printf("enter Temprature \n");
+			case '2': printf("Enter Temprature \n");
 			scanf("%f",&Temp);
-			printf("%5.2f Celsius = %5.2f Fehrerhite\n",Temp,CelToFer(Temp));
+			printf("%5.2f Celsius = %5.2f Fehrenhite\n \n",Temp,CelToFer(Temp));
+
 			break;
 
-			case 'x': return 0;
+			case 'x':
+			case 'X' : return 0; break; 
+			
 			default:
-			printf("\n /***************************/\n");
-			printf("Please choose correct option \n");
-			printf("\n /***************************/\n");
+			printf("/***************************/\n");
+			printf("   Please choose correct option \n");
+			printf("/***************************/\n");
 
 			break;
 		}
+		printf("Press any key to continue .....\n");
+		getchar();
+
 	}while(ch != 'x');
 	//return 0;
 }
