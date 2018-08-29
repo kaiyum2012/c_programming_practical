@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]) // void main()
+{ 
 	int divisor,dividend;
 	float product,remainder,quotient;
 
@@ -29,5 +29,5 @@ int main(int argc, char const *argv[])
 	remainder = dividend % divisor;
 	printf("Remainder for dividend = %d and divisor = %d is %f\n",dividend,divisor,remainder);
 
-	return 0;
+	return 0; // getch();
 }

@@ -17,7 +17,7 @@ int main(int argc, char const *argv[])
 	scanf("%d", &c);
 
     D = (b * b) - (4 * a * c);
-    printf("%d\n",b * b);
+   // printf("%d\n",b * b);
 	// checking for root is possible or not ?
 	if(D >= 0) {
 		root1 = ((-1)* b - sqrt(D)) / (2 * a); 	
