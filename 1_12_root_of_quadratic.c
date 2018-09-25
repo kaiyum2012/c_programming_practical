@@ -2,10 +2,12 @@
 * @Author: Abdulkaiyum Shaikh
 * @Date:   2018-08-29 21:08:11
 * @Last Modified by:   Abdulkaiyum Shaikh
-* @Last Modified time: 2018-08-29 21:14:35
+* @Last Modified time: 2018-09-24 11:52:18
 */
 
 /**
+ *
+ * AIM : Find roots of quadratic equation.
  * algo
  * 1. take input a, b, c (integer)
  * 2. calculate D = b^2 - 4ac
