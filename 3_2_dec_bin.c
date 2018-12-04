@@ -1,16 +1,20 @@
 /*
 * @Author: abdulkaiyum
 * @Date:   2018-09-07 12:19:26
-* @Last Modified by:   abdulkaiyum
-* @Last Modified time: 2018-09-07 12:26:45
+* @Last Modified by:   Abdulkaiyum Shaikh
+* @Last Modified time: 2018-10-23 10:53:38
 */
 #include<stdio.h>
 
 int main(int argc, char const *argv[])
 {
-	int bit,number = 5,base = 1;
+	int bit,number,base = 1;
 	long int binary = 0;
 
+	printf("Enter your number\n");
+	scanf("%d", &number);
+
+	printf("Binary for number %d is",number);
 	while (number > 0)
 	{
 	   bit = number % 2;
@@ -21,7 +25,7 @@ int main(int argc, char const *argv[])
 
 	}
 
-	printf("Binary of decimal number %d is %ld\n", number,binary);
+	printf(" %ld\n",binary);
 
 	return 0;
 }
