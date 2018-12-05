@@ -2,7 +2,7 @@
 * @Author: Abdulkaiyum Shaikh
 * @Date:   2018-12-04 10:51:13
 * @Last Modified by:   Abdulkaiyum Shaikh
-* @Last Modified time: 2018-12-04 11:00:48
+* @Last Modified time: 2018-12-05 12:50:28
 */
 
 #include <stdio.h>
@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
 
 		f2 = f0 + f1;
 		f0 = f1;
-		temp = f1;
+		// temp = f1;
 		f1 = f2;
 
 		printf("%d \t", f2 );
