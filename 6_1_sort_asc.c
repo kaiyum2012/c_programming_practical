@@ -2,7 +2,7 @@
 * @Author: Abdulkaiyum Shaikh
 * @Date:   2018-12-05 08:22:53
 * @Last Modified by:   Abdulkaiyum Shaikh
-* @Last Modified time: 2018-12-05 08:54:07
+* @Last Modified time: 2018-12-05 08:58:22
 */
 
 #include <stdio.h>
@@ -27,10 +27,7 @@ int main(int argc, char const *argv[])
 	// if number is smaller than current(index) element than swap numbers 
 	// else
 	// do nothing 
-
-	// arraySize = sizeof(Numbers)/sizeof(Numbers[0]);
-	printf("size = %d\n", arraySize );
-
+	
 	for (i = 0; i < arraySize; i++) // for all array element
 	{
 		for(j = i+1; j < arraySize; j++)
